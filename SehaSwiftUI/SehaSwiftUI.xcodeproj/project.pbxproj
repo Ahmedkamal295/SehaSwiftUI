@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D3003F8A20C6F9DA77595B0 /* Pods_SehaSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8086B9F1C13DCE6744BE5B /* Pods_SehaSwiftUI.framework */; };
+		F7A337AE2BD95AE00082F4CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A337AD2BD95AE00082F4CE /* Assets.xcassets */; };
+		F7A337B12BD95AE00082F4CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A337B02BD95AE00082F4CE /* Preview Assets.xcassets */; };
+		F7A337BD2BD95BA30082F4CE /* SehaSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A337BC2BD95BA30082F4CE /* SehaSwiftUIApp.swift */; };
+		F7A337C02BD95BFA0082F4CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A337BF2BD95BFA0082F4CE /* AppDelegate.swift */; };
+		F7A337C52BD95C4B0082F4CE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A337C42BD95C4B0082F4CE /* LoginView.swift */; };
+		F7A337C82BD95E960082F4CE /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A337C72BD95E960082F4CE /* Launch Screen.storyboard */; };
+		F7A337CB2BD9682B0082F4CE /* MyViewWithTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A337CA2BD9682A0082F4CE /* MyViewWithTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D5FFE26A195F138810F9D6F /* Pods-SehaSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SehaSwiftUI.release.xcconfig"; path = "Target Support Files/Pods-SehaSwiftUI/Pods-SehaSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		9ECCDAEB6581CC6552154E9F /* Pods-SehaSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SehaSwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-SehaSwiftUI/Pods-SehaSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		AA8086B9F1C13DCE6744BE5B /* Pods_SehaSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SehaSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A337A62BD95ADC0082F4CE /* SehaSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SehaSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A337AD2BD95AE00082F4CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7A337B02BD95AE00082F4CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7A337BC2BD95BA30082F4CE /* SehaSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SehaSwiftUIApp.swift; sourceTree = "<group>"; };
+		F7A337BF2BD95BFA0082F4CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7A337C42BD95C4B0082F4CE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F7A337C72BD95E960082F4CE /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		F7A337CA2BD9682A0082F4CE /* MyViewWithTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewWithTextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7A337A32BD95ADC0082F4CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D3003F8A20C6F9DA77595B0 /* Pods_SehaSwiftUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E679F938C525BB68A1981FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9ECCDAEB6581CC6552154E9F /* Pods-SehaSwiftUI.debug.xcconfig */,
+				2D5FFE26A195F138810F9D6F /* Pods-SehaSwiftUI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		910BDF705E86631C8F87C882 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA8086B9F1C13DCE6744BE5B /* Pods_SehaSwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7A3379D2BD95ADC0082F4CE = {
+			isa = PBXGroup;
+			children = (
+				F7A337A82BD95ADC0082F4CE /* SehaSwiftUI */,
+				F7A337A72BD95ADC0082F4CE /* Products */,
+				2E679F938C525BB68A1981FD /* Pods */,
+				910BDF705E86631C8F87C882 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F7A337A72BD95ADC0082F4CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7A337A62BD95ADC0082F4CE /* SehaSwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7A337A82BD95ADC0082F4CE /* SehaSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				F7A337BC2BD95BA30082F4CE /* SehaSwiftUIApp.swift */,
+				F7A337C92BD968190082F4CE /* Views */,
+				F7A337BE2BD95BDF0082F4CE /* Core */,
+				F7A337C62BD95E510082F4CE /* Launch Screen */,
+				F7A337C12BD95C110082F4CE /* LoginView */,
+				F7A337AD2BD95AE00082F4CE /* Assets.xcassets */,
+				F7A337AF2BD95AE00082F4CE /* Preview Content */,
+			);
+			path = SehaSwiftUI;
+			sourceTree = "<group>";
+		};
+		F7A337AF2BD95AE00082F4CE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F7A337B02BD95AE00082F4CE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F7A337BE2BD95BDF0082F4CE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F7A337BF2BD95BFA0082F4CE /* AppDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F7A337C12BD95C110082F4CE /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				F7A337C42BD95C4B0082F4CE /* LoginView.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		F7A337C62BD95E510082F4CE /* Launch Screen */ = {
+			isa = PBXGroup;
+			children = (
+				F7A337C72BD95E960082F4CE /* Launch Screen.storyboard */,
+			);
+			path = "Launch Screen";
+			sourceTree = "<group>";
+		};
+		F7A337C92BD968190082F4CE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7A337CA2BD9682A0082F4CE /* MyViewWithTextField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7A337A52BD95ADC0082F4CE /* SehaSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7A337B42BD95AE00082F4CE /* Build configuration list for PBXNativeTarget "SehaSwiftUI" */;
+			buildPhases = (
+				ADD5FE5933B2A549E57B0D3F /* [CP] Check Pods Manifest.lock */,
+				F7A337A22BD95ADC0082F4CE /* Sources */,
+				F7A337A32BD95ADC0082F4CE /* Frameworks */,
+				F7A337A42BD95ADC0082F4CE /* Resources */,
+				47FDD8472959135F7A4C1C75 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SehaSwiftUI;
+			productName = SehaSwiftUI;
+			productReference = F7A337A62BD95ADC0082F4CE /* SehaSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7A3379E2BD95ADC0082F4CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F7A337A52BD95ADC0082F4CE = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = F7A337A12BD95ADC0082F4CE /* Build configuration list for PBXProject "SehaSwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7A3379D2BD95ADC0082F4CE;
+			productRefGroup = F7A337A72BD95ADC0082F4CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7A337A52BD95ADC0082F4CE /* SehaSwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7A337A42BD95ADC0082F4CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A337C82BD95E960082F4CE /* Launch Screen.storyboard in Resources */,
+				F7A337B12BD95AE00082F4CE /* Preview Assets.xcassets in Resources */,
+				F7A337AE2BD95AE00082F4CE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47FDD8472959135F7A4C1C75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SehaSwiftUI/Pods-SehaSwiftUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SehaSwiftUI/Pods-SehaSwiftUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SehaSwiftUI/Pods-SehaSwiftUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADD5FE5933B2A549E57B0D3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SehaSwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7A337A22BD95ADC0082F4CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A337C52BD95C4B0082F4CE /* LoginView.swift in Sources */,
+				F7A337C02BD95BFA0082F4CE /* AppDelegate.swift in Sources */,
+				F7A337CB2BD9682B0082F4CE /* MyViewWithTextField.swift in Sources */,
+				F7A337BD2BD95BA30082F4CE /* SehaSwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F7A337B22BD95AE00082F4CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7A337B32BD95AE00082F4CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7A337B52BD95AE00082F4CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ECCDAEB6581CC6552154E9F /* Pods-SehaSwiftUI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SehaSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 33R6DGRHNR;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SehaSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7A337B62BD95AE00082F4CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D5FFE26A195F138810F9D6F /* Pods-SehaSwiftUI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SehaSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 33R6DGRHNR;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SehaSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7A337A12BD95ADC0082F4CE /* Build configuration list for PBXProject "SehaSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7A337B22BD95AE00082F4CE /* Debug */,
+				F7A337B32BD95AE00082F4CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7A337B42BD95AE00082F4CE /* Build configuration list for PBXNativeTarget "SehaSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7A337B52BD95AE00082F4CE /* Debug */,
+				F7A337B62BD95AE00082F4CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7A3379E2BD95ADC0082F4CE /* Project object */;
+}
