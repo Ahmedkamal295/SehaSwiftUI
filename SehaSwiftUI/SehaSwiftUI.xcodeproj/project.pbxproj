@@ -14,7 +14,8 @@
 		F7A337C02BD95BFA0082F4CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A337BF2BD95BFA0082F4CE /* AppDelegate.swift */; };
 		F7A337C52BD95C4B0082F4CE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A337C42BD95C4B0082F4CE /* LoginView.swift */; };
 		F7A337C82BD95E960082F4CE /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A337C72BD95E960082F4CE /* Launch Screen.storyboard */; };
-		F7A337CB2BD9682B0082F4CE /* MyViewWithTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A337CA2BD9682A0082F4CE /* MyViewWithTextField.swift */; };
+		F7A337CE2BD9ABCC0082F4CE /* VerifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A337CD2BD9ABCC0082F4CE /* VerifyView.swift */; };
+		F7A337D12BD9B4150082F4CE /* MainFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A337D02BD9B4150082F4CE /* MainFont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +29,8 @@
 		F7A337BF2BD95BFA0082F4CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7A337C42BD95C4B0082F4CE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		F7A337C72BD95E960082F4CE /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		F7A337CA2BD9682A0082F4CE /* MyViewWithTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewWithTextField.swift; sourceTree = "<group>"; };
+		F7A337CD2BD9ABCC0082F4CE /* VerifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyView.swift; sourceTree = "<group>"; };
+		F7A337D02BD9B4150082F4CE /* MainFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFont.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				F7A337BC2BD95BA30082F4CE /* SehaSwiftUIApp.swift */,
-				F7A337C92BD968190082F4CE /* Views */,
+				F7A337CF2BD9B4070082F4CE /* Globals */,
+				F7A337CC2BD9ABBA0082F4CE /* VerifyView */,
 				F7A337BE2BD95BDF0082F4CE /* Core */,
 				F7A337C62BD95E510082F4CE /* Launch Screen */,
 				F7A337C12BD95C110082F4CE /* LoginView */,
@@ -124,12 +127,20 @@
 			path = "Launch Screen";
 			sourceTree = "<group>";
 		};
-		F7A337C92BD968190082F4CE /* Views */ = {
+		F7A337CC2BD9ABBA0082F4CE /* VerifyView */ = {
 			isa = PBXGroup;
 			children = (
-				F7A337CA2BD9682A0082F4CE /* MyViewWithTextField.swift */,
+				F7A337CD2BD9ABCC0082F4CE /* VerifyView.swift */,
 			);
-			path = Views;
+			path = VerifyView;
+			sourceTree = "<group>";
+		};
+		F7A337CF2BD9B4070082F4CE /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				F7A337D02BD9B4150082F4CE /* MainFont.swift */,
+			);
+			path = Globals;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,8 +260,9 @@
 			files = (
 				F7A337C52BD95C4B0082F4CE /* LoginView.swift in Sources */,
 				F7A337C02BD95BFA0082F4CE /* AppDelegate.swift in Sources */,
-				F7A337CB2BD9682B0082F4CE /* MyViewWithTextField.swift in Sources */,
 				F7A337BD2BD95BA30082F4CE /* SehaSwiftUIApp.swift in Sources */,
+				F7A337D12BD9B4150082F4CE /* MainFont.swift in Sources */,
+				F7A337CE2BD9ABCC0082F4CE /* VerifyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,10 +12,12 @@ import IQKeyboardManagerSwift
 
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
+    var window: UIWindow?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         // Setup IQKeyboardManager
         IQKeyboardManager.shared.enable = true
         IQKeyboardManager.shared.resignOnTouchOutside = true
+        
         return true
     }
 }
